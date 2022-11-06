@@ -1,0 +1,6 @@
+listInput = (input("Enter your list: "))
+clearList = list(map(int,listInput.split(",")))
+clearList.sort()
+print (str(min(clearList))) 
+print (str(max(clearList)))
+print (str(sum(clearList[1:-1])))
